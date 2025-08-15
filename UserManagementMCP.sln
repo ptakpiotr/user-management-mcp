@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementApp", "UserManagementApp\UserManagementApp.csproj", "{D80EA2F6-08C9-450F-AB35-17D858237E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementMcpServer", "UserManagementMcpServer\UserManagementMcpServer.csproj", "{163DB29C-2A29-4043-93BF-3386CEC78917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementMcpClient", "UserManagementMcpClient\UserManagementMcpClient.csproj", "{77EB31A9-F878-4F0E-A48F-2700432A0834}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D80EA2F6-08C9-450F-AB35-17D858237E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D80EA2F6-08C9-450F-AB35-17D858237E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D80EA2F6-08C9-450F-AB35-17D858237E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D80EA2F6-08C9-450F-AB35-17D858237E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163DB29C-2A29-4043-93BF-3386CEC78917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163DB29C-2A29-4043-93BF-3386CEC78917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163DB29C-2A29-4043-93BF-3386CEC78917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163DB29C-2A29-4043-93BF-3386CEC78917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EB31A9-F878-4F0E-A48F-2700432A0834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EB31A9-F878-4F0E-A48F-2700432A0834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EB31A9-F878-4F0E-A48F-2700432A0834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EB31A9-F878-4F0E-A48F-2700432A0834}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
