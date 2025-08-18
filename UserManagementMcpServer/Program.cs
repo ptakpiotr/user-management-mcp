@@ -3,6 +3,8 @@ using UserManagementMcpServer.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 builder.Services.AddOptionsWithValidateOnStart<AppOptions>()
     .Bind(builder.Configuration.GetSection("AppConn"));
 
@@ -13,7 +15,7 @@ builder.Services.AddMcpServer()
     })
     .WithToolsFromAssembly();
 
-builder.Services.AddHttpClient("AiClient", (services, client) =>
+builder.Services.AddHttpClient("AppClient", (services, client) =>
 {
     client.DefaultRequestHeaders.Add("X-API-KEY", services.GetRequiredService<IOptions<AppOptions>>().Value.ApiKey);
 });

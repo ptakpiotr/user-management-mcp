@@ -15,4 +15,8 @@
         <PackageReference Include="ModelContextProtocol.AspNetCore" Version="0.3.0-preview.3"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\UserManagementServiceDefaults\UserManagementServiceDefaults.csproj" />
+    </ItemGroup>
+
 </Project>

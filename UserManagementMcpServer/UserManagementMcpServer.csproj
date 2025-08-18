@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\UserManagementApp\UserManagementApp.csproj" />
+      <ProjectReference Include="..\UserManagementServiceDefaults\UserManagementServiceDefaults.csproj" />
     </ItemGroup>
 
 </Project>

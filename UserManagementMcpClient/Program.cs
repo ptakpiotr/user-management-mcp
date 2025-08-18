@@ -9,6 +9,8 @@ using UserManagementMcpClient.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 var cfg = builder.Configuration;
 
 builder.Services.AddOptionsWithValidateOnStart<McpServerOptions>()

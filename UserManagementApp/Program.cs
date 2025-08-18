@@ -5,6 +5,8 @@ using UserManagementApp.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.AddServiceDefaults();
+
 builder.Services
     .AddAuthentication("ApiKeyScheme")
     .AddScheme<ApiKeySchemeOptions, ApiKeyAuthHandler>("ApiKeyScheme",
